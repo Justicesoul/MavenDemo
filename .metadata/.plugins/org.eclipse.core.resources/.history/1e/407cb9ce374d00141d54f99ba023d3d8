@@ -1,0 +1,74 @@
+package login;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Assert;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.AfterMethod;
+
+public class Test1 {
+	WebDriver driver;
+	String BaseUrl = "http://qa_thinh_publication_name_2b-bd.audiencemedia.com";
+	String User1 = "admin";
+	String Pass1 = "devteam";
+	WebElement Ob1;
+	@DataProvider
+	public Object[][] userdata(){
+		return new Object[][]{
+				{"","b"},
+//				{"c",""},
+		};
+	}
+	
+  @Test (dataProvider = "userdata")
+  public void Test_Invalid(String user, String pass) {
+	  Ob1 = driver.findElement(By.id("id1"));
+	  Ob1.sendKeys(user);
+	  Ob1 = driver.findElement(By.id("id2"));
+	  Ob1.sendKeys(pass);
+	  Ob1.submit();
+  }
+
+  @Test
+  public void Test_Valid() {
+	  Ob1 = driver.findElement(By.id("id1"));
+	  Ob1.sendKeys(User1);
+	  Ob1 = driver.findElement(By.id("id2"));
+	  Ob1.sendKeys(Pass1);
+	  Ob1.submit();
+	}
+  
+  @BeforeMethod
+  public void beforeMethod() {
+	  driver = new FirefoxDriver();
+	  driver.get(BaseUrl + "/admin");
+//	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+  }
+  @AfterMethod
+  public void afterMethod() {
+	  try {
+		  Ob1=driver.findElement(By.cssSelector("div[class=\"message error\"]"));
+		  if (Ob1.isDisplayed()) {
+//			  Ob1 = driver.findElement(By.cssSelector("div[class=\"message error\"]"));
+//			  Assert.assertEquals(Ob1.getText(), "A valid username and password is required to login.");
+			  System.out.println(Ob1.getText());
+			  } else {
+			  System.out.println("No error message");
+			}
+		  } catch (Exception e) {
+			  System.out.println("Get catch");
+			  Assert.assertFalse(driver.findElement(By.cssSelector("div[class=\"message error\"]")).isDisplayed(), "NO error message!");
+		  }
+//	  if (driver.findElement(By.cssSelector("div[class=\"message error\"]")).isDisplayed()) {
+//		System.out.println("Detected error message!");
+//	} else {
+//		System.out.println("OK");
+//	} ==> This will get error because driver can't find out the Element
+	  
+	  driver.quit();
+  }
+}

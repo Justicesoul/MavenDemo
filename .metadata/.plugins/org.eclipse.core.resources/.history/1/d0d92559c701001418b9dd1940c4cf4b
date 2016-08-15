@@ -1,0 +1,28 @@
+package mypackage;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class Practise {
+	public static void main(String[] args){
+		
+	
+	WebDriver driver = new FirefoxDriver();
+	String baseUrl = "http://chotot.vn";
+	String expectedTitle = "Chợ Tốt - Chợ của người Việt";
+	String actualTitle = "";
+	
+	driver.get(baseUrl);
+	actualTitle = driver.getTitle();
+
+	if (actualTitle.contentEquals(expectedTitle)){
+		System.out.println("Test Passed!");
+		}else {
+		System.out.println("Test Failed!");
+		}
+	
+	driver.close();
+	System.exit(0);
+	
+	}
+	}	

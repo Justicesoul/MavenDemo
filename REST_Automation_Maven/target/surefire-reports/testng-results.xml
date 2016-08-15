@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Status: HTTP/1.1 200 OK
+]]>
+    </line>
+    <line>
+      <![CDATA[Status: HTTP/1.1 404 Not Found
+]]>
+    </line>
+    <line>
+      <![CDATA[Status: HTTP/1.1 200 OK
+]]>
+    </line>
+    <line>
+      <![CDATA[Status: HTTP/1.1 200 OK
+]]>
+    </line>
+    <line>
+      <![CDATA[Status: HTTP/1.1 200 OK
+]]>
+    </line>
+    <line>
+      <![CDATA[Status: HTTP/1.1 200 OK
+]]>
+    </line>
+  </reporter-output>
+  <suite name="DemoAPI" duration-ms="4527" started-at="2016-03-18T07:51:37Z" finished-at="2016-03-18T07:51:41Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="4527" started-at="2016-03-18T07:51:37Z" finished-at="2016-03-18T07:51:41Z">
+      <class name="maven_for_RESTAPI.NewTest">
+        <test-method status="PASS" signature="f()[pri:0, instance:maven_for_RESTAPI.NewTest@129a8472]" name="f" duration-ms="4511" started-at="2016-03-18T14:51:37Z" finished-at="2016-03-18T14:51:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Status: HTTP/1.1 200 OK
+]]>
+            </line>
+            <line>
+              <![CDATA[Status: HTTP/1.1 404 Not Found
+]]>
+            </line>
+            <line>
+              <![CDATA[Status: HTTP/1.1 200 OK
+]]>
+            </line>
+            <line>
+              <![CDATA[Status: HTTP/1.1 200 OK
+]]>
+            </line>
+            <line>
+              <![CDATA[Status: HTTP/1.1 200 OK
+]]>
+            </line>
+            <line>
+              <![CDATA[Status: HTTP/1.1 200 OK
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- maven_for_RESTAPI.NewTest -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- DemoAPI -->
+</testng-results>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="MultiBrowser" parallel="tests">
+ <!-- 
+ <test name="IETest">
+ 	<parameter name="browser" value="ie" />
+ 		<classes>
+ 			<class name="automation_Framework.MultiBrowser_ParallelTesting" />
+ 		</classes>
+ </test> -->
+
+ <test name="FirefoxTest">
+ 	<parameter name="browser" value="firefox" />
+ 		<classes>
+ 			<class name="automation_Framework.MultiBrowser_ParallelTesting" />
+ 		</classes>
+ </test>
+
+ <test name="ChromeTest">
+ 	<parameter name="browser" value="chrome" />
+ 		<classes>
+ 			<class name="automation_Framework.MultiBrowser_ParallelTesting" />
+ 		</classes>
+ </test>
+</suite>
+
+<!-- <suite name="Parameters_Dataprovider">
+   <test name="Parameters_Dataprovider-test">
+   		<parameter name="yUsername" value="yourusername"/>
+  		<parameter name="yPassword" value="yourpassword"/>
+   
+	  <classes>
+	      <class name="automation_Framework.Parameters_Dataprovider" />
+	  </classes>
+    </test>
+</suite> -->
+
+<!--<suite name="Practice Grouping">
+ 	<test name="Practice Grouping-test">
+      <groups>
+      	<define name="All">
+      		<include name="Sedan Car"/>
+      		<include name="Scooter"/>
+      	</define>
+	      <run>
+	      	<include name="All" />
+	      </run>
+	  </groups>
+	  
+	  <classes>
+	      <class name="automation_Framework.Grouping" />
+	  </classes>
+    </test> 
+</suite>-->

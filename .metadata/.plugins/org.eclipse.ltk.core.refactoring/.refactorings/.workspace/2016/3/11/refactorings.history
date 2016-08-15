@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;artifact_ID&apos; to &apos;REST_Automation_Maven&apos;&#x0D;&#x0A;- Original element: &apos;artifact_ID&apos;&#x0D;&#x0A;- Renamed element: &apos;artifact_ID&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;artifact_ID&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=artifact_ID" name="REST_Automation_Maven" references="true" stamp="1457512624719" version="1.0"/>
+</session>

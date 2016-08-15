@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;newsletter.Newsletter_Test&apos; to &apos;Newsletter_TCs&apos;&#x0D;&#x0A;- Original project: &apos;AMTCs&apos;&#x0D;&#x0A;- Original element: &apos;newsletter.Newsletter_Test&apos;&#x0D;&#x0A;- Renamed element: &apos;newsletter.Newsletter_TCs&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Newsletter_Test&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;newsletter{Newsletter_Test.java[Newsletter_Test" matchStrategy="1" name="Newsletter_TCs" qualified="false" references="true" similarDeclarations="false" stamp="1445230440804" textual="false" version="1.0"/>
+</session>

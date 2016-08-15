@@ -1,0 +1,45 @@
+package selenium_webdriver;
+
+import com.thoughtworks.selenium.*;
+import com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class abc3 {
+	private Selenium selenium;
+
+	@Before
+	public void setUp() throws Exception {
+//			selenium = new DefaultSelenium("localhost", 4444, "*chrome", "http://www.chotot.vn/");
+//			selenium.start();
+		WebDriver driver = new FirefoxDriver();
+		String baseUrl = "http://www.chotot.vn";
+		selenium = new WebDriverBackedSelenium(driver, baseUrl);
+	}
+
+	@Test
+	public void testAbc3() throws Exception {
+		selenium.open("/");
+		selenium.click("id=region_13");
+		selenium.waitForPageToLoad("30000");
+		selenium.click("css=span.tab_right_links");
+		selenium.waitForPageToLoad("30000");
+		selenium.click("link=Ä�á»“ Ä‘iá»‡n tá»­");
+		selenium.waitForPageToLoad("30000");
+		selenium.click("//a[@onclick=\"xt_med('C',xtn2,'hide_thumbnail','A'); return common.set_md('li');\"]");
+		selenium.waitForPageToLoad("30000");
+		selenium.click("link=MÃ¡y tÃ­nh vÃ  Phá»¥ kiá»‡n");
+		selenium.waitForPageToLoad("30000");
+		selenium.click("link=Laptop panasonic CF 18");
+		selenium.waitForPageToLoad("30000");
+	}
+
+	@After
+	public void tearDown() throws Exception {
+		selenium.stop();
+	}
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name ="Test Suite">
+	<test name = "AM TCs">
+		<parameter name="Valid_UserB" value="admin"/>
+		<parameter name="Valid_PassB" value="devteam"/>
+		<classes>
+			<class name="login.Login"></class>
+			<class name="content_issue.Edit"></class>
+		</classes>
+	</test>
+</suite>

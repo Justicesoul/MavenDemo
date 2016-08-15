@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Suite]">
+  <parameter name="Valid_UserB" value="admin"/>
+  <parameter name="Valid_PassB" value="devteam"/>
+  <test name="AM TCs(failed)">
+    <parameter name="Valid_UserB" value="admin"/>
+    <parameter name="Valid_PassB" value="devteam"/>
+    <classes>
+      <class name="login.Login">
+        <methods>
+          <include name="Login_Valid"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- login.Login -->
+    </classes>
+  </test> <!-- AM TCs(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->

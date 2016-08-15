@@ -1,0 +1,39 @@
+package selenium_webdriver;
+
+import com.thoughtworks.selenium.*;
+import com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class abc extends SeleneseTestBase{
+	private Selenium selenium;
+
+	@Before
+	public void setUp() throws Exception {
+//		selenium = new DefaultSelenium("localhost", 4444, "*chrome", "https://www.google.com.vn/");
+//		selenium.start();
+		WebDriver driver = new FirefoxDriver();
+		String baseUrl = "http://www.google.com";
+		selenium = new WebDriverBackedSelenium(driver, baseUrl);
+	}
+
+	@Test
+	public void testAbc() throws Exception {
+		selenium.open("/");
+		selenium.type("q", "FFThinh");
+		selenium.click("btnG");
+		selenium.waitForPageToLoad("3000");
+		verifyEquals("FFThinh - Google Search", selenium.getTitle());
+	}
+
+	@After
+	public void tearDown() throws Exception {
+		selenium.stop();
+		System.out.println("abc Done");
+
+	}
+}

@@ -1,0 +1,269 @@
+package group_ID.REST_Automation_Maven_Maven_for_RESTAPI;
+
+import static com.jayway.restassured.RestAssured.*;
+
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+
+import com.jayway.restassured.matcher.RestAssuredMatchers.*;
+import com.jayway.restassured.path.json.JsonPath;
+import org.hamcrest.Matchers.*;
+
+import com.jayway.restassured.response.Header;
+/////////////////
+import com.jayway.restassured.response.Headers;
+import com.jayway.restassured.response.Response;
+import com.jayway.restassured.builder.RequestSpecBuilder;
+import com.jayway.restassured.specification.RequestSpecification;
+
+import initialize.ExcelUtils_auto;
+
+import org.json.JSONObject;
+
+
+
+public class Config implements Comparable<Config>{
+	public static void GET_Function(String path){
+		set_up(path);
+		//		Response_Headers();
+		//		Response_Data();
+		//		Expected_Verification();
+		Compare_records();
+	}
+
+	public static void Compare_records(){
+		List<JSONObject> test	= Jpath.getJsonObject("data");
+		for (int i = 1; i < test.size(); i++) {
+//			System.out.println(test.get(i));
+			test.get(i).get("platform").compareTo
+		}
+		
+	}
+
+	public static void POST_Function(String npath){
+		String APIBody = "{\"project_id\":\"1\"}";
+		// Building request using requestSpecBuilder 
+		RequestSpecBuilder builder = new RequestSpecBuilder(); 
+		builder.setBody(APIBody);
+		builder.setContentType("application/json; charset=UTF-8");
+
+		RequestSpecification requestSpec = builder.build();
+
+		//Making post request with authentication
+		Response response = given().auth().preemptive().basic("", "")
+				.spec(requestSpec).when().post(npath);
+
+		JSONObject JSONResponseBody = new JSONObject(response.body().asString()); 
+		//Fetching the desired value of a parameter 
+		String result = JSONResponseBody.toString();
+
+		System.out.println(result);
+	}
+
+	public static void GET_Function_MultipleAPI(List<String> Url){
+		List<String>	URLs	= new ArrayList<String>(Url);
+		for (String URL : URLs) {
+			GET_Function(URL);
+			System.out.println(enter);
+		}
+	}
+
+	///////////////// Quick texts///////////////////////
+	public static String slash			= "/";
+	public static String enter			= "\n";
+
+	////////////////////////////////////////
+	///////////////// VARs /////////////////
+	protected static String path;
+	protected static Response resp;
+	protected static JsonPath Jpath;
+
+	protected static void set_up(String path) {
+		resp 	= get(Vars.Environment + path);
+		Jpath	= new JsonPath(resp.asString()); 
+	}
+
+	//////////////////////////////////////////
+	///////////////// METHOD /////////////////
+	//////////////////////////////////////////
+
+	// Response /////////////////
+	protected static String	Response_Logging(){
+		return resp.then().log().status().toString();
+	}
+
+	protected static void	Response_Headers(){
+		System.out.println("\t HEADERS");
+		//get Status
+		System.out.println("Status: " + get_StatusLine());
+
+		//get Response Time
+		System.out.println("Loading time: " + get_ResponseTime() + " ms");
+
+		//get Specific Header (Ex: X-Debug-Token)
+		System.out.println(get_Header(Vars.Debug_Token));
+
+		Response_HeadersforList();
+	}
+
+	protected static void 	Response_HeadersforList(){
+		//		if (Check_isList()) {
+		//get Headers
+		Headers allHeaders = get_allHeaders();
+		System.out.println(
+				allHeaders.get(Vars.Limit) + enter 
+				+ allHeaders.get(Vars.Page)+ enter
+				+ allHeaders.get(Vars.Total) );
+		//		}
+	}
+
+	protected static void 	Response_Data(){
+		System.out.println("\t DATAS");
+		if (get_Status() == Vars.OK) {
+			boolean aaa 	= Jpath.get("status");
+			System.out.println(aaa);
+
+			//			Show_Data(ListExpected_Data());
+			Show_Data_List(ListExpected_Data());
+
+		} else if(get_Status() == Vars.Not_found || get_Status() == Vars.Bad_request){
+			boolean ccc	= Jpath.get("status");
+			String ccc2	= Jpath.get("error.message");
+			String ccc3	= Jpath.get("error.internal_code");
+			System.out.println(ccc+enter+ccc2+enter+ccc3);
+		} else{
+			System.out.println(Vars.Invalid_Status);
+			try {
+				throw new Exception(Vars.Invalid_Status);
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+	}
+
+	protected static void	Show_Data(List<String> params){
+		List<String> listparams = new ArrayList<>(params);
+		for (String param : listparams) {
+			try {
+				int bbb = Jpath.get("data[0]."+param);
+				System.out.println(bbb);
+			} catch (ClassCastException C) {
+				String ccc = Jpath.get("data[0]."+param);
+				System.out.println(ccc);	
+			} catch (IllegalArgumentException D) {
+				try {
+					int ddd = Jpath.get("data."+param);
+					System.out.println(ddd);
+				} catch (Exception e) {
+					String eee = Jpath.get("data."+param);
+					System.out.println(eee);
+				}
+			}  
+		}
+	}
+
+	protected static <T> void	Show_Data_List(List<String> params){
+		List<String> listparams = new ArrayList<>(params);
+		for (String param : listparams) {
+			try {
+				List<T> bbb = Jpath.get("data."+param);
+				System.out.println(bbb);
+			} catch (ClassCastException C) {
+				List<T> ccc = Jpath.get("data."+param);
+				System.out.println(ccc);	
+			}
+		}
+	}
+	// Get /////////////////
+	protected static String	get_JSON_data(){
+		return resp.asString();
+	}
+
+	protected static int 	get_Status (){
+		return resp.statusCode();
+	}
+
+	protected static String	get_StatusLine(){
+		return resp.statusLine();
+	}
+
+	protected static long 	get_ResponseTime(){
+		return resp.time();
+	}
+
+	protected static Header	get_Header(String Headername){
+		return get_allHeaders().get(Headername);
+	}
+
+	protected static Headers	get_allHeaders(){
+		return resp.getHeaders();
+	}
+
+	// to check /////////////////
+	protected static boolean	Check_isList(){
+		// NEED TO BE DEFINED
+		return false;
+	}
+
+	protected static boolean isRespTime_Acceptable(){
+		boolean boo = false;
+		int a = (int) get_ResponseTime();
+		int result = Integer.compare(a, Vars.Acceptable_Time);
+
+		boo = (result==1)?false:((result<=0)?true:null);
+		return boo;
+	}
+
+
+	// to prepare /////////////////
+	protected static List<String>	ListExpected_Data(){ //Manual at the moment
+		List<String> params = new ArrayList<String>();
+		params.add(Vars.param1); //Manual at the moment
+		params.add(Vars.param2); //Manual at the moment
+		params.add(Vars.param3); //Manual at the moment
+		return params;
+	}
+
+	protected static List<String>	ListExpected_Header(){ //Manual at the moment - PENDING
+		List<String> params = new ArrayList<String>();
+		return params;
+	}
+	////////////////////////////////////////
+	///////////////// List /////////////////
+
+	protected static List<String>	ListAPI() {
+		List<String> items	= new ArrayList<String>();
+		try {
+			ExcelUtils_auto.setExcelFile(Vars.TestCaseFile_path, 0);
+
+			for (int i = Vars.start_row; i <= Vars.no_of_rows; i++) {
+				String item = ExcelUtils_auto.getCellData(i, 0);
+				items.add(item);
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+		return items;
+	}
+
+	// to verify /////////////////
+	public static void Expected_Verification(){
+		System.out.println("\t VERIFICATION");
+		//		Config.resp.then().assertThat().statusCode(201);
+
+		// Verify Loading Time
+		if (isRespTime_Acceptable()) {
+			System.out.println("The time is lessthan " + Vars.Acceptable_Time + "ms. Passed");
+		}else {
+			System.out.println("The time is over " + Vars.Acceptable_Time + "ms!! Failed");
+		};
+	}
+
+	@Override
+	public int compare(Config o1, Config o2) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+}

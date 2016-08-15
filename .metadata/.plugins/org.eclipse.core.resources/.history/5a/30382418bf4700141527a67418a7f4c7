@@ -1,0 +1,44 @@
+//GOOD
+
+package selenium_webdriver;
+
+import com.thoughtworks.selenium.*;
+import com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class abc3 {
+	private Selenium selenium;
+
+	@Before
+	public void setUp() throws Exception {
+//			selenium = new DefaultSelenium("localhost", 4444, "*chrome", "http://www.chotot.vn/");
+//			selenium.start();
+		WebDriver driver = new FirefoxDriver();
+		String baseUrl = "http://www.chotot.vn";
+		selenium = new WebDriverBackedSelenium(driver, baseUrl);
+	}
+
+	@Test
+	public void testAbc3() throws Exception {
+		selenium.open("/");
+		selenium.click("id=region_13");
+		selenium.waitForPageToLoad("30000");
+		selenium.click("//*[@id='tabnav']/li[3]/a");
+		selenium.waitForPageToLoad("30000");
+		selenium.click("//*[@id='tabnav']/li/div[1]/a[2]");
+		selenium.waitForPageToLoad("30000");
+		selenium.click("//*[@id='hl']/div[1]/div[4]/a");
+		selenium.waitForPageToLoad("30000");
+	}
+
+	@After
+	public void tearDown() throws Exception {
+//		selenium.stop();
+		System.out.println("abc Done");
+	}
+}

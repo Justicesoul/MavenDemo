@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Group of group suite]">
+  <parameter name="Valid_UserB" value="admin"/>
+  <parameter name="Valid_PassB" value="devteam"/>
+  <test name="TestNG ne(failed)">
+    <parameter name="Valid_UserB" value="admin"/>
+    <parameter name="Valid_PassB" value="devteam"/>
+    <classes>
+      <class name="Maven.TestNG.ZEN_3726_WD">
+        <methods>
+          <include name="f1"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Maven.TestNG.ZEN_3726_WD -->
+    </classes>
+  </test> <!-- TestNG ne(failed) -->
+</suite> <!-- Failed suite [Group of group suite] -->

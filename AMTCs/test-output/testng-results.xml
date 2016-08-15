@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="43264" started-at="2015-10-28T03:27:58Z" finished-at="2015-10-28T03:28:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="43264" started-at="2015-10-28T03:27:58Z" finished-at="2015-10-28T03:28:41Z">
+      <class name="newsletter.Newsletter_TCs">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:newsletter.Newsletter_TCs@8b96fde]" name="beforeMethod" is-config="true" duration-ms="13638" started-at="2015-10-28T10:27:58Z" finished-at="2015-10-28T10:28:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test()[pri:0, instance:newsletter.Newsletter_TCs@8b96fde]" name="Test" duration-ms="29599" started-at="2015-10-28T10:28:12Z" finished-at="2015-10-28T10:28:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:newsletter.Newsletter_TCs@8b96fde]" name="afterMethod" is-config="true" duration-ms="1" started-at="2015-10-28T10:28:41Z" finished-at="2015-10-28T10:28:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- newsletter.Newsletter_TCs -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

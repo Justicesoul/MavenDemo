@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.testng.eclipse.launchconfig">
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.testng.remote.RemoteTestNG"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="myprojects"/>
+<mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS"/>
+<listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
+<listEntry value="mypackage.Myclass"/>
+<listEntry value="mypackage.Practise"/>
+<listEntry value="mypackage.First_webdriver_script"/>
+<listEntry value="selenium_webdriver.pratising"/>
+<listEntry value="selenium_webdriver.abc4_Webdriver_Backed"/>
+<listEntry value="selenium_webdriver.abc4_RemoteControl_Junit4"/>
+<listEntry value="selenium_webdriver.abc4_Webdriver"/>
+<listEntry value="mypackage.Keyboard_mouse_events_files_webdriver"/>
+<listEntry value="mypackage.Practise_Close"/>
+<listEntry value="mypackage.Accessing_link_tables_Sel_webdriver"/>
+<listEntry value="selenium_webdriver.abc3"/>
+</listAttribute>
+<listAttribute key="org.testng.eclipse.METHOD_TEST_LIST"/>
+<listAttribute key="org.testng.eclipse.PACKAGE_TEST_LIST"/>
+<mapAttribute key="org.testng.eclipse.PARAMETERS"/>
+<stringAttribute key="org.testng.eclipse.PRE_DEFINED_LISTENERS" value=""/>
+<intAttribute key="org.testng.eclipse.TYPE" value="1"/>
+</launchConfiguration>

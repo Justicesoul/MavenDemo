@@ -1,0 +1,32 @@
+package mypackage;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class Practise {
+	public static void main(String[] args){
+		
+	
+	WebDriver driver = new FirefoxDriver();
+	String baseUrl = "http://facebook.com";
+	String expectedTitle = "Chào mừng bạn đến với Facebook - Đăng nhập, Đăng ký hoặc Tìm hiểu thêm";
+	String actualTitle = "";
+	
+	driver.get(baseUrl);
+	
+	actualTitle = driver.getTitle();
+	if (actualTitle.contentEquals(expectedTitle)){
+		System.out.println("Test Passed!");
+		}else {
+		System.out.println("Test Failed!");
+		}
+	
+	String tag = driver.findElement(By.className("inputtext")).getTagName();
+	System.out.println(tag);
+	
+	driver.close();
+	System.exit(0);
+	
+	}
+	}	

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;automation_Framework&apos; to &apos;automation/src&apos;&#x0D;&#x0A;- Original project: &apos;myprojects&apos;&#x0D;&#x0A;- Destination element: &apos;automation/src&apos;&#x0D;&#x0A;- Original element: &apos;myprojects/src/automation_Framework&apos;" description="Copy package" destination="=automation/src" element1="/src&lt;automation_Framework" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1409024757777" version="1.0"/>
+</session>

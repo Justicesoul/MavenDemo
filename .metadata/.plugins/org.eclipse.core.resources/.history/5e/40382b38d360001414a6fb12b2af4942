@@ -1,0 +1,45 @@
+package content_issue;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+public class Edit {
+	WebDriver driver;
+	WebElement Ob1;
+	String BaseUrl = "http://qa_thinh_publication_name_2b-bd.audiencemedia.com";
+	String Valid_User = "admin"; String Valid_Pass = "devteam";
+	
+
+  @Test (groups = "login")
+  public void Login_Valid () {
+	  Ob1 = driver.findElement(By.id("id1"));	  Ob1.sendKeys(Valid_User);
+	  Ob1 = driver.findElement(By.id("id2"));	  Ob1.sendKeys(Valid_Pass);
+	  Ob1.submit();  }
+	
+  @Test
+  public void f() {
+
+
+  }
+  
+  @BeforeClass
+  public void beforeClass() {
+	  driver = new FirefoxDriver();
+	  driver.get(BaseUrl + "/admin/issues/home");
+	  driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+	  driver.manage().window().maximize();
+  }
+
+  @AfterClass
+  public void afterClass() {
+	  System.out.println("\n---------------DONE---------------\n");
+//	  driver.quit();
+  }
+}

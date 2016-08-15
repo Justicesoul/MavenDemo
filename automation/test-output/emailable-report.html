@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">MultiBrowser</th></tr><tr><td><a href="#t0">IETest</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">268</td><td></td><td></td></tr><tr class="stripe"><td><a href="#t1">ChromeTest</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">149</td><td></td><td></td></tr><tr><td><a href="#t2">FirefoxTest</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">62,623</td><td></td><td></td></tr><tr><th>Total</th><th class="num">0</th><th class="num attn">3</th><th class="num">0</th><th class="num">63,040</th><th colspan="2"></th></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">MultiBrowser</th></tr></tbody><tbody id="t0"><tr><th colspan="4">IETest &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">testNG_Framework.MultiBrowser_ParallelTesting</td><td><a href="#m0">beforeTest</a></td><td rowspan="1">1468398657190</td><td rowspan="1">0</td></tr><tr><th colspan="4">IETest &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">testNG_Framework.MultiBrowser_ParallelTesting</td><td><a href="#m1">afterTest</a></td><td rowspan="1">1468398657428</td><td rowspan="1">0</td></tr><tr><th colspan="4">IETest &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">testNG_Framework.MultiBrowser_ParallelTesting</td><td><a href="#m2">Test</a></td><td rowspan="1">1468398657426</td><td rowspan="1">1</td></tr></tbody><tbody id="t1"><tr><th colspan="4">ChromeTest &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">testNG_Framework.MultiBrowser_ParallelTesting</td><td><a href="#m3">beforeTest</a></td><td rowspan="1">1468398657524</td><td rowspan="1">0</td></tr><tr><th colspan="4">ChromeTest &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">testNG_Framework.MultiBrowser_ParallelTesting</td><td><a href="#m4">afterTest</a></td><td rowspan="1">1468398657670</td><td rowspan="1">0</td></tr><tr><th colspan="4">ChromeTest &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">testNG_Framework.MultiBrowser_ParallelTesting</td><td><a href="#m5">Test</a></td><td rowspan="1">1468398657669</td><td rowspan="1">1</td></tr></tbody><tbody id="t2"><tr><th colspan="4">FirefoxTest &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">testNG_Framework.MultiBrowser_ParallelTesting</td><td><a href="#m6">beforeTest</a></td><td rowspan="1">1468398657190</td><td rowspan="1">0</td></tr><tr><th colspan="4">FirefoxTest &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">testNG_Framework.MultiBrowser_ParallelTesting</td><td><a href="#m7">afterTest</a></td><td rowspan="1">1468398719784</td><td rowspan="1">0</td></tr><tr><th colspan="4">FirefoxTest &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">testNG_Framework.MultiBrowser_ParallelTesting</td><td><a href="#m8">Test</a></td><td rowspan="1">1468398719782</td><td rowspan="1">1</td></tr></tbody></table><h2>IETest</h2><h3 id="m0">testNG_Framework.MultiBrowser_ParallelTesting#beforeTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>ie</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalStateException: The driver executable does not exist: E:\SOFT\Selenium Installer\Drivers\IEDriverServer.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:197)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:121)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)
+	at org.openqa.selenium.ie.InternetExplorerDriverService.access$0(InternetExplorerDriverService.java:1)
+	at org.openqa.selenium.ie.InternetExplorerDriverService$Builder.findDefaultExecutable(InternetExplorerDriverService.java:167)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:290)
+	at org.openqa.selenium.ie.InternetExplorerDriver.setupService(InternetExplorerDriver.java:251)
+	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:172)
+	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:146)
+	at testNG_Framework.MultiBrowser_ParallelTesting.beforeTest(MultiBrowser_ParallelTesting.java:23)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">testNG_Framework.MultiBrowser_ParallelTesting#afterTest</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">testNG_Framework.MultiBrowser_ParallelTesting#Test</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h2>ChromeTest</h2><h3 id="m3">testNG_Framework.MultiBrowser_ParallelTesting#beforeTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>chrome</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalStateException: The driver executable does not exist: E:\SOFT\Selenium Installer\Drivers\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:197)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:121)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$0(ChromeDriverService.java:1)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:290)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:116)
+	at testNG_Framework.MultiBrowser_ParallelTesting.beforeTest(MultiBrowser_ParallelTesting.java:28)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m4">testNG_Framework.MultiBrowser_ParallelTesting#afterTest</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m5">testNG_Framework.MultiBrowser_ParallelTesting#Test</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h2>FirefoxTest</h2><h3 id="m6">testNG_Framework.MultiBrowser_ParallelTesting#beforeTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>firefox</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+e6fd}&quot;,&quot;syncGUID&quot;:&quot;gjrc5ZfmI4ja&quot;,&quot;location&quot;:&quot;app-global&quot;,&quot;version&quot;:&quot;47.0&quot;,&quot;type&quot;:&quot;theme&quot;,&quot;internalName&quot;:&quot;classic/1.0&quot;,&quot;updateURL&quot;:null,&quot;updateKey&quot;:null,&quot;optionsURL&quot;:null,&quot;optionsType&quot;:null,&quot;aboutURL&quot;:null,&quot;icons&quot;:{&quot;32&quot;:&quot;icon.png&quot;,&quot;48&quot;:&quot;icon.png&quot;},&quot;iconURL&quot;:null,&quot;icon64URL&quot;:null,&quot;defaultLocale&quot;:{&quot;name&quot;:&quot;Default&quot;,&quot;description&quot;:&quot;The default theme.&quot;,&quot;creator&quot;:&quot;Mozilla&quot;,&quot;homepageURL&quot;:null,&quot;contributors&quot;:[&quot;Mozilla Contributors&quot;]},&quot;visible&quot;:true,&quot;active&quot;:true,&quot;userDisabled&quot;:false,&quot;appDisabled&quot;:false,&quot;descriptor&quot;:&quot;C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi&quot;,&quot;installDate&quot;:1465532027854,&quot;updateDate&quot;:1465532027854,&quot;applyBackgroundUpdates&quot;:1,&quot;skinnable&quot;:true,&quot;size&quot;:22006,&quot;sourceURI&quot;:null,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:false,&quot;hasBinaryComponents&quot;:false,&quot;strictCompatibility&quot;:true,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;47.0&quot;,&quot;maxVersion&quot;:&quot;47.0&quot;}],&quot;targetPlatforms&quot;:[],&quot;seen&quot;:true}
+1468398664176	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1468398664177	DeferredSave.extensions.json	DEBUG	Save changes
+1468398664177	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1468398664177	addons.xpi-utils	DEBUG	Updating add-on states
+1468398664178	addons.xpi-utils	DEBUG	Writing add-ons list
+1468398664180	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1468398664180	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.0
+1468398664180	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1468398664181	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.2
+1468398664182	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1468398664183	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.3.2
+1468398664204	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1468398664205	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1468398664205	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1468398664205	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1468398664205	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1468398664206	addons.manager	DEBUG	Starting provider: GMPProvider
+1468398664237	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1468398664237	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1468398664237	addons.manager	DEBUG	Starting provider: PluginProvider
+1468398664237	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1468398664238	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1468398664238	addons.manager	DEBUG	Completed startup sequence
+1468398668007	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1468398668007	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1468398668008	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1468398668010	DeferredSave.extensions.json	DEBUG	Starting write
+1468398676460	addons.repository	DEBUG	No addons.json found.
+1468398676461	DeferredSave.addons.json	DEBUG	Save changes
+1468398678768	DeferredSave.addons.json	DEBUG	Starting timer
+1468398686578	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1468398686578	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1468398686578	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1468398686600	DeferredSave.addons.json	DEBUG	Starting write
+1468398686603	DeferredSave.extensions.json	DEBUG	Write succeeded
+1468398686604	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1468398690899	DeferredSave.addons.json	DEBUG	Write succeeded
+
+Build info: version: &apos;2.47.1&apos;, revision: &apos;411b314&apos;, time: &apos;2015-07-30 02:56:46&apos;
+System info: host: &apos;AMK53S-26&apos;, ip: &apos;192.168.4.245&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:134)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:276)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:116)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:223)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:212)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at testNG_Framework.MultiBrowser_ParallelTesting.beforeTest(MultiBrowser_ParallelTesting.java:25)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+e6fd}&quot;,&quot;syncGUID&quot;:&quot;gjrc5ZfmI4ja&quot;,&quot;location&quot;:&quot;app-global&quot;,&quot;version&quot;:&quot;47.0&quot;,&quot;type&quot;:&quot;theme&quot;,&quot;internalName&quot;:&quot;classic/1.0&quot;,&quot;updateURL&quot;:null,&quot;updateKey&quot;:null,&quot;optionsURL&quot;:null,&quot;optionsType&quot;:null,&quot;aboutURL&quot;:null,&quot;icons&quot;:{&quot;32&quot;:&quot;icon.png&quot;,&quot;48&quot;:&quot;icon.png&quot;},&quot;iconURL&quot;:null,&quot;icon64URL&quot;:null,&quot;defaultLocale&quot;:{&quot;name&quot;:&quot;Default&quot;,&quot;description&quot;:&quot;The default theme.&quot;,&quot;creator&quot;:&quot;Mozilla&quot;,&quot;homepageURL&quot;:null,&quot;contributors&quot;:[&quot;Mozilla Contributors&quot;]},&quot;visible&quot;:true,&quot;active&quot;:true,&quot;userDisabled&quot;:false,&quot;appDisabled&quot;:false,&quot;descriptor&quot;:&quot;C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi&quot;,&quot;installDate&quot;:1465532027854,&quot;updateDate&quot;:1465532027854,&quot;applyBackgroundUpdates&quot;:1,&quot;skinnable&quot;:true,&quot;size&quot;:22006,&quot;sourceURI&quot;:null,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:false,&quot;hasBinaryComponents&quot;:false,&quot;strictCompatibility&quot;:true,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;47.0&quot;,&quot;maxVersion&quot;:&quot;47.0&quot;}],&quot;targetPlatforms&quot;:[],&quot;seen&quot;:true}
+1468398664176	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1468398664177	DeferredSave.extensions.json	DEBUG	Save changes
+1468398664177	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1468398664177	addons.xpi-utils	DEBUG	Updating add-on states
+1468398664178	addons.xpi-utils	DEBUG	Writing add-ons list
+1468398664180	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1468398664180	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.0
+1468398664180	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1468398664181	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.2
+1468398664182	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1468398664183	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.3.2
+1468398664204	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1468398664205	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1468398664205	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1468398664205	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1468398664205	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1468398664206	addons.manager	DEBUG	Starting provider: GMPProvider
+1468398664237	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1468398664237	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1468398664237	addons.manager	DEBUG	Starting provider: PluginProvider
+1468398664237	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1468398664238	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1468398664238	addons.manager	DEBUG	Completed startup sequence
+1468398668007	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1468398668007	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1468398668008	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1468398668010	DeferredSave.extensions.json	DEBUG	Starting write
+1468398676460	addons.repository	DEBUG	No addons.json found.
+1468398676461	DeferredSave.addons.json	DEBUG	Save changes
+1468398678768	DeferredSave.addons.json	DEBUG	Starting timer
+1468398686578	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1468398686578	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1468398686578	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1468398686600	DeferredSave.addons.json	DEBUG	Starting write
+1468398686603	DeferredSave.extensions.json	DEBUG	Write succeeded
+1468398686604	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1468398690899	DeferredSave.addons.json	DEBUG	Write succeeded
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:122)
+	... 29 more
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m7">testNG_Framework.MultiBrowser_ParallelTesting#afterTest</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m8">testNG_Framework.MultiBrowser_ParallelTesting#Test</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>

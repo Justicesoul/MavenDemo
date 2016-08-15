@@ -1,0 +1,133 @@
+package content_issue;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.Formatter;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import net.sourceforge.htmlunit.corejs.javascript.ast.NewExpression;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+public class Create {
+	WebDriver driver;
+	String BaseUrl = "http://qa_thinh_publication_name_2b-bd.audiencemedia.com";
+	String Valid_User = "admin"; String Valid_Pass = "devteam";
+	String Email = "thinh.luong+001@audiencemedia.com";
+	WebElement Ob1;
+	
+  @Test (groups = "checka")
+  public void Login_Valid () {
+	  Ob1 = driver.findElement(By.id("id1"));	  Ob1.sendKeys(Valid_User);
+	  Ob1 = driver.findElement(By.id("id2"));	  Ob1.sendKeys(Valid_Pass);
+	  Ob1.submit();
+  }
+  
+  @Test (enabled=true)
+  public void f_Error_message(){
+	  //INITIALIZAION
+	  Calendar cal = Calendar.getInstance();
+	  String Desired_coverdate = "30";
+	  String day = new SimpleDateFormat("d").format(cal.getTime()).toString();
+	  String mon = new SimpleDateFormat("MMM").format(cal.getTime()).toString();
+	  String year = new SimpleDateFormat("yyyy").format(cal.getTime()).toString();
+	  cal.add(Calendar.DAY_OF_MONTH, 4);
+//	  String mon_format = new Formatter().format("%tb", cal).toString();
+	  String Fday = new SimpleDateFormat("d").format(cal.getTime()).toString();
+	  String Fmon = new SimpleDateFormat("MMM").format(cal.getTime()).toString();
+	  String Fyear = new SimpleDateFormat("yyyy").format(cal.getTime()).toString();
+	  
+	  //INTERACT ON FRAME
+//Check if Validation works or not
+	  Ob1 = driver.findElement(By.linkText("New issue"));	Ob1.click();
+	  driver.switchTo().frame("fancybox-frame");
+	  Ob1 = driver.findElement(By.name("NewIssueButton")); Ob1.click();
+	  Ob1=driver.findElement(By.cssSelector("[class='textbox w40 fl gr required error']"));
+	  Assert.assertTrue(Ob1.isDisplayed());		System.out.println("Issue Name is validated");
+	  Ob1=driver.findElement(By.cssSelector("[class='datepicker w20 textbox fl required hasDatepicker error']"));
+	  Assert.assertTrue(Ob1.isDisplayed());		System.out.println("Cover Date is validated");
+	  Ob1=driver.findElement(By.cssSelector("[class='datepicker w20 textbox fr gr required hasDatepicker error']"));
+	  Assert.assertTrue(Ob1.isDisplayed());		System.out.println("Deadline is validated\n");
+	  driver.switchTo().defaultContent();
+	  Ob1 = driver.findElement(By.linkText("Published")); Ob2.click();
+	  
+//	  driver.navigate().refresh();
+//Input value
+	  Ob1 = driver.findElement(By.linkText("New issue"));	Ob1.click();
+	  driver.switchTo().frame("fancybox-frame");
+	  Ob1=driver.findElement(By.cssSelector("[class='textbox w40 fl gr required']"));
+//todo
+	  //Choose CoverDate
+	  Ob1=driver.findElement(By.cssSelector("[class='datepicker w20 textbox fl required hasDatepicker']"));
+	  Ob1.click();
+	  if (Desired_coverdate.equals(day)) {
+		WebElement today = driver.findElement(By.cssSelector("[class*='ui-datepicker-today']"));
+		today.click();
+		System.out.println("Selected today: " + today.getText());
+	} else {
+				//Select Month
+	  Select oselect = new Select(driver.findElement(By.cssSelector("[class='ui-datepicker-month']")));
+	  List<WebElement> months = oselect.getOptions();
+	  for (WebElement submonth : months) {
+		if (submonth.getText().equals(Fmon)) {
+			oselect.selectByVisibleText(Fmon);
+			System.out.println("Selected Month: " + Fmon);
+			break;
+		}	}
+	  			//Select Year
+	  Select oselect2 = new Select(driver.findElement(By.cssSelector("[class='ui-datepicker-year']")));
+	  List<WebElement> years = oselect2.getOptions();
+	  for (WebElement subyear : years) {
+		if (subyear.getText().equals(Fyear)) {
+			oselect2.selectByVisibleText(Fyear);
+			System.out.println("Selected Year: " + Fyear);
+			break;
+		}	}
+	  			//Select Day
+	  List<WebElement> cells = driver.findElements(By.cssSelector("a[class='ui-state-default']"));
+	  for (WebElement subcell : cells) {
+		if (subcell.getText().equals(Fday)) {
+			subcell.click();
+			System.out.println("Selected Day: " + Fday);
+			break;
+		}	}
+	}
+
+	  //Then choose Deadline
+	  Ob1=driver.findElement(By.cssSelector("[class='datepicker w20 textbox fr gr required hasDatepicker']"));
+	  Ob1.click(); 
+	  			//Select Day
+	  Ob1 = driver.findElement(By.cssSelector("td[class*='ui-datepicker-today']")); Ob1.click();
+	  System.out.println("Select Deadline Day successfully");
+	  
+	  //Submit form
+	  Ob1 = driver.findElement(By.name("NewIssueButton")); Ob1.click();
+	  driver.switchTo().defaultContent();
+	  
+/**/
+  }
+  
+  
+  @BeforeClass
+  public void beforeClass() {
+	  driver = new FirefoxDriver();
+	  driver.get(BaseUrl + "/admin/issues/home");
+	  driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+  }
+
+  @AfterClass
+  public void afterClass() {
+	  System.out.println("\n---------------DONE---------------\n");
+//	  driver.quit();
+  }
+}

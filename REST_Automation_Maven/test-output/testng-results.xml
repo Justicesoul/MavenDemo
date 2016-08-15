@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9699" started-at="2016-06-02T09:43:47Z" finished-at="2016-06-02T09:43:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9699" started-at="2016-06-02T09:43:47Z" finished-at="2016-06-02T09:43:56Z">
+      <class name="maven_for_RESTAPI.ZEN_3727">
+        <test-method status="PASS" signature="f()[pri:0, instance:maven_for_RESTAPI.ZEN_3727@2133c8f8]" name="f" duration-ms="9678" started-at="2016-06-02T16:43:47Z" finished-at="2016-06-02T16:43:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- maven_for_RESTAPI.ZEN_3727 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
