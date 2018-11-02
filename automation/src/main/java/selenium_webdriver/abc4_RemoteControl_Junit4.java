@@ -1,5 +1,7 @@
 package selenium_webdriver;
+//Need to import Libraty of Selenium to open the long comment below
 
+/*
 import com.thoughtworks.selenium.*;
 import org.junit.After;
 import org.junit.Before;
@@ -35,3 +37,4 @@ public class abc4_RemoteControl_Junit4 {
 		selenium.stop();
 	}
 }
+*/

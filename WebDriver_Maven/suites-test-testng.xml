@@ -1,6 +1,6 @@
 <suite name="Parallel tests" parallel="tests" thread-count="2">
 	<test name="Test One">
-		<parameter name="test-name" value="Test One" />
+		<parameter name="test-name" value="Test One B" />
 		<classes>
 			<class name="Maven.TestNG.ParallelSuiteTest" />
 		</classes>

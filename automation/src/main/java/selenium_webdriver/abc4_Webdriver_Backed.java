@@ -1,5 +1,7 @@
 package selenium_webdriver;
+//Need to import Libraty of Selenium to open the long comment below
 
+/*
 import com.thoughtworks.selenium.*;
 import com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -39,3 +41,4 @@ public class abc4_Webdriver_Backed {
 		selenium.stop();
 	}
 }
+*/

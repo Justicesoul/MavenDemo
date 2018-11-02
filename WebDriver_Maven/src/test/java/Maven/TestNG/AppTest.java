@@ -2,11 +2,17 @@ package Maven.TestNG;
 
 import org.testng.annotations.Test;
 
+import java.io.InputStream;
+
 public class AppTest 
 {
 	@Test
 	public void oneMoreTest() {
-		System.out.println("\n@@@@@@@@@@@@@@@@@@@\nThis is a TestNG-Maven based test\n@@@@@@@@@@@@@@@@@@@\n");
+		final String dir = System.getProperty("user.dir");
+		System.out.println("Thu muc hien tai la: " + dir);
+		InputStream in = this.getClass().getClassLoader().getResourceAsStream("\\testng.xml");
+		System.out.println(in);
+		//System.out.println("\n@@@@@@@@@@@@@@@@@@@\nThis is a TestNG-Maven based test\n@@@@@@@@@@@@@@@@@@@\n");
 	}
 }
 

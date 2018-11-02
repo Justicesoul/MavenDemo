@@ -1,6 +1,7 @@
 //GOOD. Run with XML file
 package testNG_Framework;
 
+import initialize.Source;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -12,6 +13,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import java.io.File;
+
 public class MultiBrowser_ParallelTesting {
     public WebDriver driver;
 
@@ -20,13 +23,13 @@ public class MultiBrowser_ParallelTesting {
     public void beforeTest(String browser) {
         final String dir = System.getProperty("user.dir");
         if (browser.equalsIgnoreCase("ie")) {
-            System.setProperty("webdriver.ie.driver", "F:\\Selenium\\Automation Tools\\Drivers\\IEDriverServer.exe");
+            System.setProperty("webdriver.ie.driver", Source.DriverPath() + "/IEDriverServer.exe");
             driver = new InternetExplorerDriver();
         } else if (browser.equalsIgnoreCase("firefox")) {
-            System.setProperty(“webdriver.gecko.driver”,”Path to geckodriver.exe”);
+            System.setProperty("webdriver.gecko.driver",Source.DriverPath() + "/geckodriver.exe");
             driver = new FirefoxDriver();
         } else if (browser.equalsIgnoreCase("chrome")) {
-            System.setProperty("webdriver.chrome.driver", "F:\\Selenium\\Automation Tools\\Drivers\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", Source.DriverPath() + "/chromedriver.exe");
             driver = new ChromeDriver();
         }
         driver.get("https://www.facebook.com");

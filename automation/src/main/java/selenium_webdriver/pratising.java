@@ -1,5 +1,7 @@
 package selenium_webdriver;
+//Need to import Libraty of Selenium to open the long comment below
 
+/*
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
@@ -36,3 +38,4 @@ public class pratising {
 	System.out.println("OK");
 	}
 }
+*/

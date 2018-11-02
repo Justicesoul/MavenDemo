@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e23ef0e9-1bdb-4898-8a0a-19eb2b9868ba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AMTCs/bin/content_issue/Create.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AMTCs/bin/content_issue/Edit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AMTCs/bin/examples/Lan_project.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AMTCs/bin/examples/Random_Number.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AMTCs/bin/examples/Switch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AMTCs/bin/examples/Timestamp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AMTCs/bin/initialize/AM_Form.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AMTCs/bin/initialize/F1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AMTCs/bin/initialize/F2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AMTCs/bin/initialize/Login_Functions_v2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AMTCs/bin/initialize/Newsletter_Functions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AMTCs/bin/login/Dashboard_Settings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AMTCs/bin/login/Login_TCs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AMTCs/bin/login/Login_TCs_v2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AMTCs/bin/newsletter/Newsletter_TCs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AMTCs/bin/pageObjects/Homepage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AMTCs/bin/pageObjects/Loginpage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AMTCs/bin/pageObjects/Newsletterpage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AMTCs/bin/testRunner/Apache_POI_TC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AMTCs/bin/utility/Constant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AMTCs/bin/utility/ExcelUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AMTCs/bin/zen_initialize/Zen_Action.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AMTCs/bin/zen_initialize/Zen_Form.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AMTCs/bin/zen_login/Zen_Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Appium_Maven_Demo/target/classes/group_ID/abc/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/Java_Basic.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/Java_Basic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/String_manipulation.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/String_manipulation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/_1_Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/_1_Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/_2_Car2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/_2_Car2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/_3_Car3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/_3_Car3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/_3_SportsCar.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/_3_SportsCar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/_3_Vehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/_3_Vehicle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/_4_Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/_4_Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/_4_Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/_4_Cat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/_4_Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/_4_Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/exception/basic/AgeException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/exception/basic/AgeException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/exception/basic/AgeUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/exception/basic/AgeUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/exception/basic/TooOldException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/exception/basic/TooOldException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/exception/basic/TooYoungException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/exception/basic/TooYoungException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/exception/basic/TryCatchDemo0.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/exception/basic/TryCatchDemo0.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/exception/basic/TryCatchDemo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/exception/basic/TryCatchDemo1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/exception/basic/TryCatchDemo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/exception/basic/TryCatchDemo2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/exception/basic/TryCatchDemo3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/exception/basic/TryCatchDemo3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/exception/basic/TryCatchFinallyDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/exception/basic/TryCatchFinallyDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/exception/basic2/GenderException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/exception/basic2/GenderException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/exception/basic2/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/exception/basic2/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/exception/basic2/ValidateException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/exception/basic2/ValidateException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/exception/basic2/ValidateUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/exception/basic2/ValidateUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/exception/basic2/WrapperExceptionDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise/exception/basic2/WrapperExceptionDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise_Object_Oriented/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise_Object_Oriented/Cat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise_Object_Oriented/Exception_Handling.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise_Object_Oriented/Exception_Handling.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise_Object_Oriented/Java_Object_Oriented.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise_Object_Oriented/Java_Object_Oriented.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise_Object_Oriented/Java_Object_Oriented2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise_Object_Oriented/Java_Object_Oriented2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise_Object_Oriented/Java_Object_Oriented3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise_Object_Oriented/Java_Object_Oriented3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise_Object_Oriented/Java_Object_Oriented4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise_Object_Oriented/Java_Object_Oriented4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise_Object_Oriented/Java_Object_Oriented5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise_Object_Oriented/Java_Object_Oriented5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise_Object_Oriented/MyException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise_Object_Oriented/MyException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise_Object_Oriented/Radio.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise_Object_Oriented/Radio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise_Object_Oriented/Talk.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise_Object_Oriented/Talk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise_zAdvance/Contact_Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise_zAdvance/Contact_Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise_zAdvance/Contact_Book_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise_zAdvance/Contact_Book_Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise_zAdvance/Data_Structure_ArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise_zAdvance/Data_Structure_ArrayList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise_zAdvance/Data_Structure_ArrayList2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise_zAdvance/Data_Structure_ArrayList2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise_zAdvance/Stack_Package.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise_zAdvance/Stack_Package.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise_zAdvance/Stack_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise_zAdvance/Stack_Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise_zAdvance/Vector_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise_zAdvance/Vector_Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise_zAdvance/zEntry.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise_zAdvance/zEntry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise_zAdvance/zGenerics.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practise_Basic_Java/bin/practise_zAdvance/zGenerics.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../REST_Automation/bin/fService/GET_demo_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../REST_Automation_Maven/target/classes/group_ID/REST_Automation_Maven_Maven_for_RESTAPI/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Maven/TestNG/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Maven/TestNG/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Maven/TestNG/ParallelSuiteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Maven/TestNG/ParallelSuiteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/suites-test-testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/suites-test-testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Maven/TestNG/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Maven/TestNG/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Group of group suite/Check thu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Group of group suite/Check thu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Group of group suite/Check thu2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Group of group suite/Check thu2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Group of group suite/TestNG ne.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Group of group suite/TestNG ne.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Group of group suite/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Maven.TestNG.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Maven.TestNG.AppTest/Command line test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Maven.TestNG.AppTest/Command line test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Parallel tests/Test One.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Parallel tests/Test One.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Parallel tests/Test Two.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Parallel tests/Test Two.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Maven.TestNG.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Test Suite/TestNG ne.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Test Suite/TestNG ne.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Test Suite/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Maven.TestNG.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Maven.TestNG.Login_inMaven.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Maven.TestNG.ParallelSuiteTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Maven.TestNG.RegularExpressionGroupTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Maven.TestNG.ZEN_3726_WD.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Group of group suite/Check thu.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Group of group suite/Check thu2.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Group of group suite/TestNG ne.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Group of group suite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Group of group suite/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Group of group suite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Group of group suite/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Group of group suite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Group of group suite/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Group of group suite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Group of group suite/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Group of group suite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Group of group suite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Maven.TestNG.AppTest/Command line test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Maven.TestNG.AppTest/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Maven.TestNG.AppTest/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Maven.TestNG.AppTest/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Maven.TestNG.AppTest/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Maven.TestNG.AppTest/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Maven.TestNG.AppTest/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Maven.TestNG.AppTest/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Maven.TestNG.AppTest/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Maven.TestNG.AppTest/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Maven.TestNG.AppTest/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Parallel tests/Test One.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Parallel tests/Test Two.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Parallel tests/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Parallel tests/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Parallel tests/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Parallel tests/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Parallel tests/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Parallel tests/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Parallel tests/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Parallel tests/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Parallel tests/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Parallel tests/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Test Suite/TestNG ne.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Test Suite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Test Suite/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Test Suite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Test Suite/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Test Suite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Test Suite/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Test Suite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Test Suite/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Test Suite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Test Suite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Maven/TestNG/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Maven/TestNG/Login_inMaven.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Maven/TestNG/Login_inMaven.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Maven/TestNG/ParallelSuiteTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Maven/TestNG/ParallelSuiteTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Maven/TestNG/RegularExpressionGroupTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Maven/TestNG/RegularExpressionGroupTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Maven/TestNG/ZEN_3726_WD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Maven/TestNG/ZEN_3726_WD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/initialization/ExcelUtils_auto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/initialization/ExcelUtils_auto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/Functions_WD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/Functions_WD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/bin/automate_API/RestTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/bin/automate_API/Selenium_Script.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/bin/automate_API/TestRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/bin/initialize/ExcelUtils_auto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/bin/initialize/Sel_Form.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/bin/runners/Dropdown_MultipleSelection_Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/bin/runners/Handle_Dynamic_WebTables_Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/bin/runners/Upload_File_Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/bin/selenium2_webdriver/Accessing_link_tables_Sel_webdriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/bin/selenium2_webdriver/First_webdriver_script.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/bin/selenium2_webdriver/Keyboard_mouse_events_files_webdriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/bin/selenium2_webdriver/Myclass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/bin/selenium2_webdriver/Practise.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/bin/selenium2_webdriver/Practise_Close.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/bin/selenium_Basic/Dropdown_MultipleSelection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/bin/selenium_Basic/Handle_Dynamic_WebTables.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/bin/selenium_Basic/Upload_File.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/bin/selenium_webdriver/abc3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/bin/selenium_webdriver/abc4_RemoteControl_Junit4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/bin/selenium_webdriver/abc4_Webdriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/bin/selenium_webdriver/abc4_Webdriver_Backed.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/bin/selenium_webdriver/pratising.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/bin/selenium_zAdvance/DBConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/bin/selenium_zAdvance/Javascript_Selenium.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/bin/selenium_zAdvance/Remote_Machine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/bin/selenium_zAdvance/Screenshot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/bin/stepDefinition/Test_Steps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/bin/testNG_Framework/Grouping.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/bin/testNG_Framework/MultiBrowser_ParallelTesting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/bin/testNG_Framework/P5_framework_annotations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/bin/testNG_Framework/Parameters_Dataprovider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/bin/testNG_Framework/Prioritizing_Sequencing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/bin/testNG_Framework/Reporters_Asserts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/bin/testNG_Framework/TestNG.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/bin/utilities/Functions_automation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/oldsources/selenium2_webdriver/Accessing_link_tables_Sel_webdriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../automation/src/main/java/selenium2_webdriver/Accessing_link_tables_Sel_webdriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/oldsources/selenium2_webdriver/First_webdriver_script.java" beforeDir="false" afterPath="$PROJECT_DIR$/../automation/src/main/java/selenium2_webdriver/First_webdriver_script.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/oldsources/selenium2_webdriver/Keyboard_mouse_events_files_webdriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../automation/src/main/java/selenium2_webdriver/Keyboard_mouse_events_files_webdriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/oldsources/selenium2_webdriver/Myclass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../automation/src/main/java/selenium2_webdriver/Myclass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/oldsources/selenium2_webdriver/Practise.java" beforeDir="false" afterPath="$PROJECT_DIR$/../automation/src/main/java/selenium2_webdriver/Practise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/oldsources/selenium2_webdriver/Practise_Close.java" beforeDir="false" afterPath="$PROJECT_DIR$/../automation/src/main/java/selenium2_webdriver/Practise_Close.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/oldsources/selenium_webdriver/abc3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../automation/src/main/java/selenium_webdriver/abc3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/oldsources/selenium_webdriver/abc4_RemoteControl_Junit4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../automation/src/main/java/selenium_webdriver/abc4_RemoteControl_Junit4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/oldsources/selenium_webdriver/abc4_Webdriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../automation/src/main/java/selenium_webdriver/abc4_Webdriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/oldsources/selenium_webdriver/abc4_Webdriver_Backed.java" beforeDir="false" afterPath="$PROJECT_DIR$/../automation/src/main/java/selenium_webdriver/abc4_Webdriver_Backed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/oldsources/selenium_webdriver/pratising.java" beforeDir="false" afterPath="$PROJECT_DIR$/../automation/src/main/java/selenium_webdriver/pratising.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/oldsources/testNG_Framework/Grouping.java" beforeDir="false" afterPath="$PROJECT_DIR$/../automation/src/main/java/testNG_Framework/Grouping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/oldsources/testNG_Framework/MultiBrowser_ParallelTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/../automation/src/main/java/testNG_Framework/MultiBrowser_ParallelTesting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/oldsources/testNG_Framework/P5_framework_annotations.java" beforeDir="false" afterPath="$PROJECT_DIR$/../automation/src/main/java/testNG_Framework/P5_framework_annotations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/oldsources/testNG_Framework/Parameters_Dataprovider.java" beforeDir="false" afterPath="$PROJECT_DIR$/../automation/src/main/java/testNG_Framework/Parameters_Dataprovider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/oldsources/testNG_Framework/Prioritizing_Sequencing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../automation/src/main/java/testNG_Framework/Prioritizing_Sequencing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/oldsources/testNG_Framework/Reporters_Asserts.java" beforeDir="false" afterPath="$PROJECT_DIR$/../automation/src/main/java/testNG_Framework/Reporters_Asserts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/oldsources/testNG_Framework/TestNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/../automation/src/main/java/testNG_Framework/TestNG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/src/initialize/ExcelUtils_auto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/src/initialize/Sel_Form.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/src/runners/Dropdown_MultipleSelection_Runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/src/runners/Handle_Dynamic_WebTables_Runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/src/runners/Upload_File_Runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/src/selenium_Basic/Dropdown_MultipleSelection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/src/selenium_Basic/Handle_Dynamic_WebTables.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/src/selenium_Basic/Upload_File.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/src/selenium_zAdvance/DBConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/src/selenium_zAdvance/Javascript_Selenium.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/src/selenium_zAdvance/Remote_Machine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/src/selenium_zAdvance/Screenshot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/src/utilities/Functions_automation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../automation/testng.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="743501057">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="iml" value="1" />
+          <entry key="java" value="7" />
+          <entry key="xml" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="7" />
+          <entry key="XML" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="95" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="95" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" column="8" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Maven/TestNG/ParallelSuiteTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Maven/TestNG/ZEN_3726_WD.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Maven/TestNG/AppTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/Maven/TestNG/AppTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="1294" />
+    <option name="height" value="1407" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TestNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebDriver_Maven" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebDriver_Maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebDriver_Maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebDriver_Maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebDriver_Maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TestNG" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540298630602" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="AppTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Maven.TestNG.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Maven.TestNG" />
+      <option name="MAIN_CLASS_NAME" value="Maven.TestNG.AppTest" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.AppTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e23ef0e9-1bdb-4898-8a0a-19eb2b9868ba" name="Default Changelist" comment="" />
+      <created>1539862456363</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539862456363</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="AppTest - 2018.10.23 at 19h 31m 44s.xml">
+      <configuration name="AppTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AppTest - 2018.10.23 at 19h 32m 20s.xml">
+      <configuration name="AppTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AppTest - 2018.10.23 at 19h 32m 43s.xml">
+      <configuration name="AppTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AppTest - 2018.10.23 at 19h 33m 52s.xml">
+      <configuration name="AppTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AppTest - 2018.10.23 at 19h 34m 01s.xml">
+      <configuration name="AppTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AppTest - 2018.10.23 at 19h 42m 11s.xml">
+      <configuration name="AppTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AppTest - 2018.10.23 at 19h 42m 43s.xml">
+      <configuration name="AppTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AppTest - 2018.10.23 at 19h 42m 55s.xml">
+      <configuration name="AppTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AppTest - 2018.10.23 at 19h 43m 05s.xml">
+      <configuration name="AppTest" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="1294" height="1407" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3286385" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32972974" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32972974" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Maven/TestNG/Login_inMaven.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-442">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suites-test-testng.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebDriver_Maven.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="8" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Maven/TestNG/ParallelSuiteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Maven/TestNG/ZEN_3726_WD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Maven/TestNG/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

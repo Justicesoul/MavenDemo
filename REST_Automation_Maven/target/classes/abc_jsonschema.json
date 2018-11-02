@@ -1,0 +1,415 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908",
+  "type": "object",
+  "properties": {
+    "status": {
+      "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/status",
+      "type": "boolean"
+    },
+    "data": {
+      "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data",
+      "type": "object",
+      "properties": {
+        "id": {
+          "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/id",
+          "type": "integer"
+        },
+        "publication_id": {
+          "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication_id",
+          "type": "integer"
+        },
+        "name": {
+          "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/name",
+          "type": "string"
+        },
+        "internal_name": {
+          "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/internal_name",
+          "type": "string"
+        },
+        "issn": {
+          "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/issn",
+          "type": "string"
+        },
+        "volume_no": {
+          "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/volume_no",
+          "type": "string"
+        },
+        "issue_no": {
+          "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/issue_no",
+          "type": "null"
+        },
+        "sequence_no": {
+          "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/sequence_no",
+          "type": "null"
+        },
+        "description": {
+          "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/description",
+          "type": "string"
+        },
+        "slug": {
+          "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/slug",
+          "type": "string"
+        },
+        "code": {
+          "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/code",
+          "type": "string"
+        },
+        "cover_image": {
+          "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/cover_image",
+          "type": "string"
+        },
+        "cover_date": {
+          "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/cover_date",
+          "type": "string"
+        },
+        "publish_date": {
+          "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publish_date",
+          "type": "string"
+        },
+        "remote_identifier": {
+          "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/remote_identifier",
+          "type": "string"
+        },
+        "legacy_issue_id": {
+          "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/legacy_issue_id",
+          "type": "integer"
+        },
+        "status": {
+          "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/status",
+          "type": "integer"
+        },
+        "created_at": {
+          "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/created_at",
+          "type": "string"
+        },
+        "modified_at": {
+          "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/modified_at",
+          "type": "string"
+        },
+        "created_by": {
+          "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/created_by",
+          "type": "integer"
+        },
+        "modified_by": {
+          "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/modified_by",
+          "type": "integer"
+        },
+        "file_path": {
+          "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/file_path",
+          "type": "string"
+        },
+        "type": {
+          "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/type",
+          "type": "integer"
+        },
+        "preview": {
+          "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/preview",
+          "type": "integer"
+        },
+        "has_xml": {
+          "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/has_xml",
+          "type": "integer"
+        },
+        "has_pdf": {
+          "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/has_pdf",
+          "type": "integer"
+        },
+        "publication": {
+          "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication",
+          "type": "object",
+          "properties": {
+            "id": {
+              "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/id",
+              "type": "integer"
+            },
+            "name": {
+              "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/name",
+              "type": "string"
+            },
+            "frequency": {
+              "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/frequency",
+              "type": "string"
+            },
+            "legacy_identifier": {
+              "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/legacy_identifier",
+              "type": "string"
+            },
+            "internal_name": {
+              "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/internal_name",
+              "type": "string"
+            },
+            "description": {
+              "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/description",
+              "type": "string"
+            },
+            "publisher_id": {
+              "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/publisher_id",
+              "type": "integer"
+            },
+            "content_rating": {
+              "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/content_rating",
+              "type": "integer"
+            },
+            "remote_identifier": {
+              "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/remote_identifier",
+              "type": "string"
+            },
+            "created_at": {
+              "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/created_at",
+              "type": "string"
+            },
+            "modified_at": {
+              "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/modified_at",
+              "type": "string"
+            },
+            "created_by": {
+              "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/created_by",
+              "type": "integer"
+            },
+            "modified_by": {
+              "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/modified_by",
+              "type": "integer"
+            },
+            "site_id": {
+              "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/site_id",
+              "type": "integer"
+            },
+            "status": {
+              "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/status",
+              "type": "integer"
+            },
+            "binding": {
+              "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/binding",
+              "type": "integer"
+            },
+            "type": {
+              "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/type",
+              "type": "integer"
+            },
+            "no_of_issues": {
+              "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/no_of_issues",
+              "type": "integer"
+            },
+            "logo": {
+              "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/logo",
+              "type": "string"
+            },
+            "allow_xml": {
+              "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/allow_xml",
+              "type": "integer"
+            },
+            "allow_pdf": {
+              "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/allow_pdf",
+              "type": "integer"
+            },
+            "country": {
+              "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/country",
+              "type": "object",
+              "properties": {
+                "format": {
+                  "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/country/format",
+                  "type": "string"
+                },
+                "name": {
+                  "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/country/name",
+                  "type": "string"
+                },
+                "code": {
+                  "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/country/code",
+                  "type": "string"
+                }
+              }
+            },
+            "locale": {
+              "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/locale",
+              "type": "object",
+              "properties": {
+                "format": {
+                  "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/locale/format",
+                  "type": "string"
+                },
+                "name": {
+                  "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/locale/name",
+                  "type": "string"
+                },
+                "code": {
+                  "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/locale/code",
+                  "type": "string"
+                }
+              }
+            },
+            "language": {
+              "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/language",
+              "type": "object",
+              "properties": {
+                "format": {
+                  "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/language/format",
+                  "type": "string"
+                },
+                "name": {
+                  "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/language/name",
+                  "type": "string"
+                },
+                "code": {
+                  "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/language/code",
+                  "type": "string"
+                }
+              }
+            },
+            "publisher": {
+              "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/publisher",
+              "type": "object",
+              "properties": {
+                "id": {
+                  "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/publisher/id",
+                  "type": "string"
+                },
+                "name": {
+                  "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/publisher/name",
+                  "type": "string"
+                },
+                "internal_name": {
+                  "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/publisher/internal_name",
+                  "type": "string"
+                },
+                "description": {
+                  "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/publisher/description",
+                  "type": "null"
+                },
+                "slug": {
+                  "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/publisher/slug",
+                  "type": "null"
+                },
+                "code": {
+                  "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/publisher/code",
+                  "type": "null"
+                },
+                "logo": {
+                  "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/publisher/logo",
+                  "type": "null"
+                },
+                "remote_identifier": {
+                  "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/publisher/remote_identifier",
+                  "type": "string"
+                },
+                "status": {
+                  "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/publisher/status",
+                  "type": "integer"
+                },
+                "country": {
+                  "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/publisher/country",
+                  "type": "object",
+                  "properties": {
+                    "format": {
+                      "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/publisher/country/format",
+                      "type": "string"
+                    },
+                    "name": {
+                      "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/publisher/country/name",
+                      "type": "string"
+                    },
+                    "code": {
+                      "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/publication/publisher/country/code",
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "metadata": {
+          "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/metadata",
+          "type": "array",
+          "items": []
+        },
+        "issue_content": {
+          "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/issue_content",
+          "type": "object",
+          "properties": {
+            "id": {
+              "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/issue_content/id",
+              "type": "string"
+            },
+            "name": {
+              "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/issue_content/name",
+              "type": "string"
+            },
+            "volume_no": {
+              "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/issue_content/volume_no",
+              "type": "string"
+            },
+            "issue_no": {
+              "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/issue_content/issue_no",
+              "type": "null"
+            },
+            "description": {
+              "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/issue_content/description",
+              "type": "string"
+            },
+            "cover_date": {
+              "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/issue_content/cover_date",
+              "type": "string"
+            },
+            "published_date": {
+              "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/issue_content/published_date",
+              "type": "string"
+            },
+            "previewable": {
+              "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/issue_content/previewable",
+              "type": "boolean"
+            },
+            "channel": {
+              "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/issue_content/channel",
+              "type": "string"
+            },
+            "designs": {
+              "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/issue_content/designs",
+              "type": "array",
+              "items": {
+                "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/issue_content/designs/0",
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/issue_content/designs/0/id",
+                    "type": "string"
+                  },
+                  "url": {
+                    "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/issue_content/designs/0/url",
+                    "type": "string"
+                  },
+                  "version": {
+                    "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/issue_content/designs/0/version",
+                    "type": "integer"
+                  },
+                  "reader_version": {
+                    "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/issue_content/designs/0/reader_version",
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "active_offers": {
+          "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/active_offers",
+          "type": "array",
+          "items": []
+        },
+        "allow_xml": {
+          "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/allow_xml",
+          "type": "integer"
+        },
+        "allow_pdf": {
+          "id": "http://zendev2.vn.audiencemedia.com/newsstand/v1/newsstands/3051/issues/14908/data/allow_pdf",
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "required": [
+    "status",
+    "data"
+  ]
+}

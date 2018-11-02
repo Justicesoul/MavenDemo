@@ -4,7 +4,7 @@ import org.testng.annotations.*;
 
 public class ParallelSuiteTest
 {
-    String testName = "";
+    String testName = "a";
  
     @BeforeTest
     @Parameters({ "test-name" })

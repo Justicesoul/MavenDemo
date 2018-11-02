@@ -1,5 +1,7 @@
 package selenium_webdriver;
+//Need to import Libraty of Selenium to open the long comment below
 
+/*
 import java.util.concurrent.TimeUnit;
 import org.junit.*;
 import static org.junit.Assert.*;
@@ -72,3 +74,4 @@ private boolean isAlertPresent() {
     }
   }
 }
+*/
