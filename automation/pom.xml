@@ -63,6 +63,12 @@
             <version>3.14.0</version>
         </dependency>
         <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <!--Affected to Dropdown_MultipleSelection_Runner-->
+            <version>3.14.0</version>
+        </dependency>
+        <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
             <version>3.14</version>
