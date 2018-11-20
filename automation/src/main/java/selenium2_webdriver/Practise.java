@@ -9,7 +9,11 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Practise {
     public static void main(String[] args) {
-        System.setProperty("webdriver.gecko.driver", Source.DriverPath() + "/geckodriver.exe");
+        // for Window
+        /*System.setProperty("webdriver.gecko.driver", Source.DriverPath() + "/geckodriver.exe");*/
+        // for MacOS
+        System.setProperty("webdriver.gecko.driver", Source.DriverPath() + "/MacOS/geckodriver");
+
         /*DesiredCapabilities capabilities = DesiredCapabilities.firefox();
         capabilities.setCapability("marionette", true);*/
         WebDriver driver = new FirefoxDriver();
@@ -34,7 +38,7 @@ public class Practise {
 
 
         WebElement Ele1 = driver.findElement(By.xpath(Oxii_Home.Rank5.Main_Image));
-        System.out.println("Height of Main Image: " + Ele1.getSize().height + "&& " + "Width of Main Image: " + Ele1.getSize().width);
+        System.out.println("Height of Main Image: " + Ele1.getSize().height + " && " + "Width of Main Image: " + Ele1.getSize().width);
         System.out.println(Ele1.getText());
         System.out.println("Class of Main Image: " + Ele1.getAttribute("class"));
 
