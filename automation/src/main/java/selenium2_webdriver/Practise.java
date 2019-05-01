@@ -9,21 +9,22 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Practise {
     public static void main(String[] args) {
-        // for Window
+            // for Window
         /*System.setProperty("webdriver.gecko.driver", Source.DriverPath() + "/geckodriver.exe");*/
-        // for MacOS
+            // for MacOS
         System.setProperty("webdriver.gecko.driver", Source.DriverPath() + "/MacOS/geckodriver");
 
         /*DesiredCapabilities capabilities = DesiredCapabilities.firefox();
         capabilities.setCapability("marionette", true);*/
         WebDriver driver = new FirefoxDriver();
-        driver.get(Oxii_Home.BaseURL);
+
+        /*       driver.get(Oxii_Home.BaseURL);
 
         String expectedTitle = "Mạng xã hội nội dung dành cho người Việt. Chúng tôi có nội dung bạn thích và chỉ dành cho bạn.";
-        String actualTitle = driver.getTitle(); /**/
+        String actualTitle = driver.getTitle(); *//**//*
         System.out.println("Real Title: " + actualTitle);
 
-        Source.verifyEquals(expectedTitle, actualTitle);
+        Source.verifyEquals(expectedTitle, actualTitle);*/
         /*try {
             Assert.assertEquals(expectedTitle,actualTitle);
         } catch (Exception e) {
@@ -36,7 +37,7 @@ public class Practise {
             System.out.println("Test Failed!");
         }*/
 
-
+        /*
         WebElement Ele1 = driver.findElement(By.xpath(Oxii_Home.Rank5.Main_Image));
         System.out.println("Height of Main Image: " + Ele1.getSize().height + " && " + "Width of Main Image: " + Ele1.getSize().width);
         System.out.println(Ele1.getText());
@@ -52,11 +53,14 @@ public class Practise {
 
         // Discussion section
 
-        // Feature Story section
+        // Feature Story section*/
 
+        driver.get("https://accounts.google.com");
+        driver.findElement(By.id("identifierId")).sendKeys("caroline.fonder");
 
-        driver.close();
+//        driver.close();
         System.exit(0);
+        driver.quit();
     }
 
 }
