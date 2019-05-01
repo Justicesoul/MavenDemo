@@ -70,7 +70,7 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <!--Affected to Dropdown_MultipleSelection_Runner-->
+            <!--Affected to DropdownList_MultipleSelection_Runner-->
             <version>3.141.5</version>
         </dependency>
         <dependency>

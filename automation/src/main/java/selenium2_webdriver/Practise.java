@@ -1,66 +1,21 @@
 package selenium2_webdriver;
 
-import Objects.Oxii_Home;
-import initialize.Source;
+import initialize.Sel_Form;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class Practise {
+public class Practise extends Sel_Form {
     public static void main(String[] args) {
-            // for Window
-        /*System.setProperty("webdriver.gecko.driver", Source.DriverPath() + "/geckodriver.exe");*/
-            // for MacOS
-        System.setProperty("webdriver.gecko.driver", Source.DriverPath() + "/MacOS/geckodriver");
-
-        /*DesiredCapabilities capabilities = DesiredCapabilities.firefox();
-        capabilities.setCapability("marionette", true);*/
-        WebDriver driver = new FirefoxDriver();
-
-        /*       driver.get(Oxii_Home.BaseURL);
-
-        String expectedTitle = "Mạng xã hội nội dung dành cho người Việt. Chúng tôi có nội dung bạn thích và chỉ dành cho bạn.";
-        String actualTitle = driver.getTitle(); *//**//*
-        System.out.println("Real Title: " + actualTitle);
-
-        Source.verifyEquals(expectedTitle, actualTitle);*/
-        /*try {
-            Assert.assertEquals(expectedTitle,actualTitle);
-        } catch (Exception e) {
-//            e.printStackTrace();
-            System.out.println("Assert Failed!");
-        }*/
-        /*if (actualTitle.contentEquals(expectedTitle)) {
-            System.out.println("Test Passed!");
-        } else {
-            System.out.println("Test Failed!");
-        }*/
-
-        /*
-        WebElement Ele1 = driver.findElement(By.xpath(Oxii_Home.Rank5.Main_Image));
-        System.out.println("Height of Main Image: " + Ele1.getSize().height + " && " + "Width of Main Image: " + Ele1.getSize().width);
-        System.out.println(Ele1.getText());
-        System.out.println("Class of Main Image: " + Ele1.getAttribute("class"));
+        String Sendo_URL = "https://www.sendo.vn/";
+        String ExpectedTitle = "Siêu chợ SEN ĐỎ FPT Thế Giới SHOPPING Mua Bán Online Giá TỐT";
+        String Logo_Xpath = "//a[@class='logo_qf4D']";
 
 
-        // Verify each element:
-        // Hot Rank
+        Practise.Setup(Sendo_URL);
+//        Sel_Form.Wait(Logo_Xpath);
+        Practise.verifyEquals(driver.getTitle(),ExpectedTitle);
 
-        // Navigation Bar
 
-        // Select topic button
-
-        // Discussion section
-
-        // Feature Story section*/
-
-        driver.get("https://accounts.google.com");
-        driver.findElement(By.id("identifierId")).sendKeys("caroline.fonder");
-
-//        driver.close();
-        System.exit(0);
-        driver.quit();
+        Practise.Clean();
     }
 
 }

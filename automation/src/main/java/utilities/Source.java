@@ -1,4 +1,4 @@
-package initialize;
+package utilities;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -28,15 +28,4 @@ public class Source {
         Spath = spath;
     }
 
-    public static void verifyEquals(Object actual, Object expected) {
-        try {
-            Assert.assertEquals(expected, actual);
-        } catch (Throwable e) {
-            System.out.println("The comparison is Failed!");
-        }
-    }
-
-    public static void checkexistence(WebDriver driver){
-
-    }
 }

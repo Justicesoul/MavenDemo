@@ -13,7 +13,7 @@ import org.testng.Assert;
 
 import initialize.Sel_Form;
 
-public class Upload_File extends Sel_Form{
+public class UploadFile extends Sel_Form{
 	public static final String BaseURL	= "http://www.upsieutoc.com/";
 	public static final String BaseURL2	= "http://uphinhnhanh.com/";
 	public static final String BaseURL3 = "https://www.freepdfconvert.com/pdf-word";

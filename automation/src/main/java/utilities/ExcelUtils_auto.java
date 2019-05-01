@@ -1,4 +1,4 @@
-package initialize;
+package utilities;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -39,7 +39,7 @@ public class ExcelUtils_auto {
 		}
 	}
 
-	//This method is to write in the Excel cell, Row num and Col num are the parameters
+	//These methods are to write in the Excel cell, Row num and Col num are the parameters
 	@SuppressWarnings("static-access")
 	public static void setCellData(String Result, String excelFile_path, int RowNum, int ColNum) throws Exception	{
 			Row  = ExcelWSheet.getRow(RowNum);

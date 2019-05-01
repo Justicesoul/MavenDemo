@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 
 import initialize.Sel_Form;
 
-public class Handle_Dynamic_WebTables extends Sel_Form{
+public class HandleDynamicWebTables extends Sel_Form{
 	public static String BaseURL = "http://www.toolsqa.com/automation-practice-table/";
 	//Exercise1
 	private static String RowA 		= "1";

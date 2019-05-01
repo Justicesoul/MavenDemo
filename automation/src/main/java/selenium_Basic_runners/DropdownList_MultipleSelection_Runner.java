@@ -4,24 +4,25 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import selenium_Basic.Handle_Dynamic_WebTables;
+import selenium_Basic.DropdownList;
+import selenium_Basic.MultipleSelection;
 
-public class Handle_Dynamic_WebTables_Runner {
+public class DropdownList_MultipleSelection_Runner {
 	////Setup & Clean////
 	@BeforeClass
 	public void beforeClass() {
-		Handle_Dynamic_WebTables.Setup(Handle_Dynamic_WebTables.BaseURL);
+		DropdownList.Setup(DropdownList.BaseURL);
 	}
 
 	@AfterClass
 	public void afterClass() {
-		Handle_Dynamic_WebTables.Clean();
+		DropdownList.Clean();
 	}
 	////////////////////
 
 	@Test
 	public void Demo() throws InterruptedException {
-		Handle_Dynamic_WebTables.Exercise1();
-		Handle_Dynamic_WebTables.Exercise2();
+		DropdownList.Drop_Down_List();
+		MultipleSelection.Multiple_Selection();
 	}
 }
